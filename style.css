@@ -1,0 +1,47 @@
+body{
+    background-color: blueviolet;
+}
+Main{
+    background-color: blueviolet;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    width:70%;
+    height: 80vh;
+}
+Main*{
+    display: inline-block;
+}
+#stulpelis1 {
+    background-color: rgb(255, 252, 214);
+    width: 31%;
+    min-width: 100px;
+    height: 94%;
+    float: left;
+    margin: 6px;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+#stulpelis2 {
+    background-color: rgb(255, 252, 214);
+    width: 31%;
+    min-width: 100px;
+    height: 94%;
+    float: left;
+    margin: 6px;
+    margin-left: 6px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+#stulpelis3 {
+    background-color: rgb(255, 252, 214);
+    width: 31%;
+    min-width: 100px;
+    height: 94%;
+    float: left;
+    margin: 6px;
+    margin-top: 10px;
+    border-radius: 6px;
+}

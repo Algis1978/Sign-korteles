@@ -1,22 +1,25 @@
 body{
     background-color: blueviolet;
 }
+body *{
+    color: rgba(105, 90, 205, 0.61);
+}
 Main{
     background-color: blueviolet;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 25%;
+    margin-left:25%;
     width:70%;
-    height: 80vh;
 }
 Main*{
     display: inline-block;
 }
 #stulpelis1 {
     background-color: rgb(255, 252, 214);
-    width: 31%;
-    min-width: 100px;
+    width: 70%;
+    min-width: 240px;
+    max-width: 720px;
     height: 94%;
     float: left;
     margin: 6px;
@@ -34,6 +37,7 @@ Main*{
     margin-left: 6px;
     margin-top: 10px;
     border-radius: 6px;
+
 }
 #stulpelis3 {
     background-color: rgb(255, 252, 214);
@@ -44,4 +48,86 @@ Main*{
     margin: 6px;
     margin-top: 10px;
     border-radius: 6px;
+}
+h1 {
+    color: slateblue;
+    font-size: 32px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+.forma{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    font-size: 16px;
+}
+.material-icons {
+    width: 98%;
+    font-size: 18px;
+    margin-bottom: 5%;
+    }
+#postform{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size:12px;
+    font-weight: bolder;
+}
+#radiobutton{
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+a {
+    text-decoration: none;
+}
+#slap{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+#slap>a:hover{
+    color: midnightblue;
+}
+.buttondiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.button{
+    width: 100%;
+    color: rgb(255, 252, 214);
+    background-image: linear-gradient(to right, blueviolet, rgb(74, 74, 252));
+    border-radius: 22px;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size:16px;
+}
+.pabaigosp{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+}
+.pabaigosp>p{
+ margin: 0%;
+ margin-top: 5%;
+}
+.paryskinta{
+    font-weight: bold;
+    font-size: 16px;
+}
+.paryskinta:hover{
+    color: midnightblue;
 }

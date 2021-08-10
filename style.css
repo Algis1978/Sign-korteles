@@ -71,10 +71,10 @@ p {
     border-bottom: 2px solid;
     background-color: rgb(255, 252, 214);
 }
-.forma input::placeholder {
+.forma input::placeholder { 
     color: rgba(105, 90, 205, 0.61);
 }
-.naudotojovardas, .slaptazodis {
+.naudotojovardas, .slaptazodis, .email {
     width: 98%;
     font-size: 16px;
     margin-bottom: 5%;
@@ -89,6 +89,11 @@ p {
 }
 .slaptazodis {
     background-image: url(./keyPNG.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+}
+.email{
+    background-image: url(./mailPNG.png);
     background-repeat: no-repeat;
     background-size: 26px;
 }

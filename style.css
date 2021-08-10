@@ -6,10 +6,7 @@ body *{
 }
 Main{
     background-color: blueviolet;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 25%;
-    margin-left:25%;
+    margin: auto;
     width:70%;
 }
 Main*{
@@ -37,7 +34,6 @@ Main*{
     margin-left: 6px;
     margin-top: 10px;
     border-radius: 6px;
-
 }
 #stulpelis3 {
     background-color: rgb(255, 252, 214);
@@ -70,21 +66,54 @@ p {
     align-items: center;
     font-size: 16px;
 }
-.material-icons {
+.forma input{
+    border: none;
+    border-bottom: 2px solid;
+    background-color: rgb(255, 252, 214);
+}
+.forma input::placeholder {
+    color: rgba(105, 90, 205, 0.61);
+}
+.naudotojovardas, .slaptazodis {
     width: 98%;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5%;
+    text-indent: 12%;
+    padding-top: 6px;
+    padding-bottom: 4px;
     }
+.naudotojovardas{
+    background-image: url(./etaPNG.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+}
+.slaptazodis {
+    background-image: url(./keyPNG.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+}
 #postform{
     margin-left: 10%;
     margin-right: 10%;
     font-size:12px;
     font-weight: bolder;
 }
-#radiobutton{
+#checkboxdiv {
     display: inline-block;
     float: left;
     width: 45%;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+input {
+    outline: slateblue;;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: 0px;
 }
 a {
     text-decoration: none;
@@ -92,16 +121,17 @@ a {
 #slap{
     display: inline-block;
     float: right;
-    width: 50%;
+    width: 45%;
     text-align: right;
+    margin-top: 1px;
 }
 #slap>a:hover{
-    color: midnightblue;
+    color: rgb(45, 45, 124);
 }
 .buttondiv{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .button{
     width: 100%;
@@ -113,6 +143,13 @@ a {
     padding-bottom: 4%;
     font-size:16px;
 }
+.buttondiv a{
+    color: oldlace;
+    letter-spacing: 2px;
+}
+.buttondiv a:hover{
+    text-decoration: underline;
+}
 .pabaigosp{
     margin-bottom: 10%;
     margin-left: 10%;
@@ -120,14 +157,17 @@ a {
     align-items: center;
     text-align: center;
 }
-.pabaigosp>p{
+.pabaigosp {
  margin: 0%;
- margin-top: 5%;
+ margin-top: 10%;
+}
+.pabaigospp{
+    margin: 0%;
 }
 .paryskinta{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 .paryskinta:hover{
-    color: midnightblue;
+    color: rgb(45, 45, 124);
 }

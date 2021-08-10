@@ -53,7 +53,7 @@ p {
 .forma input::placeholder { 
     color: rgba(105, 90, 205, 0.61);
 }
-.naudotojovardas, .slaptazodis, .email {
+.naudotojovardas, .password, .email {
     width: 100%;
     font-size: 16px;
     margin-bottom: 5%;
@@ -66,7 +66,7 @@ p {
     background-repeat: no-repeat;
     background-size: 26px;
 }
-.slaptazodis {
+.password {
     background-image: url(./keyPNG.png);
     background-repeat: no-repeat;
     background-size: 26px;

@@ -28,6 +28,11 @@ h1 {
     color: slateblue;
     font-size: 32px;
 }
+@media (max-width:600px) {
+    h1 {
+        font-size: 26px;
+    }
+}
 p {
     font-size: 12px;
     font-weight: bolder;
@@ -39,6 +44,7 @@ form {
 form input{
     border: none;
     border-bottom: 2px solid;
+    background-color: floralwhite;
     background-color: rgb(255, 252, 214);
 }
 form input::placeholder { 
@@ -79,7 +85,6 @@ form input::placeholder {
     text-indent: -15px;
 }
 input {
-    outline: slateblue;;
     width: 15px;
     height: 15px;
     padding: 0;
@@ -107,6 +112,7 @@ input {
 }
 .button{
     width: 100%;
+    color: floralwhite;
     color: rgb(255, 252, 214);
     background-image: linear-gradient(to right, blueviolet, rgb(74, 74, 252));
     border-radius: 22px;

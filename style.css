@@ -1,154 +1,146 @@
-body{
-    background-color: blueviolet;
+:root {
+  --maincolor: rgb(255, 252, 214);
 }
-body *{
-    color: rgba(105, 90, 205, 0.61);
+body {
+  background-color: blueviolet;
+}
+body * {
+  color: rgba(105, 90, 205, 0.61);
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-Main{
-    background-color:  rgb(255, 252, 214);
-    margin-top: auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 2%;
-    width:60%;
-    min-width: 240px;
-    max-width: 720px;
-    border-radius: 8px;
+Main {
+  background-color: var(--maincolor);
+  margin: 5%;
+  width: 90%;
+  min-width: 240px;
+  max-width: 720px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 18px;
 }
-header{
-    padding-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
+header {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
 }
 h1 {
-    color: slateblue;
-    font-size: 32px;
+  color: slateblue;
+  font-size: 4rem;
 }
-@media (max-width:600px) {
-    h1 {
-        font-size: 26px;
-    }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 p {
-    font-size: 12px;
-    font-weight: bolder;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 form {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin: 10%;
 }
-form input{
-    border: none;
-    border-bottom: 2px solid;
-    background-color: floralwhite;
-    background-color: rgb(255, 252, 214);
+form input {
+  border: none;
+  border-bottom: 2px solid;
+  background-color: floralwhite;
+  background-color: var(--maincolor);
 }
-form input::placeholder { 
-    color: rgba(105, 90, 205, 0.61);
+form input::placeholder {
+  color: rgba(105, 90, 205, 0.61);
 }
-.naudotojovardas, .password, .email {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 5%;
-    text-indent: 15%;
-    padding-top: 6px;
-    padding-bottom: 4px;
-    }
-.naudotojovardas{
-    background-image: url(./etaPNG.png);
-    background-repeat: no-repeat;
-    background-size: 26px;
+.naudotojovardas,
+.password,
+.email {
+  width: 100%;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+  text-indent: 15%;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  background-repeat: no-repeat;
+  background-size: 1.7rem;
+  margin-top: 5px;
+}
+.naudotojovardas {
+  background-image: url(./etaPNG.png);
 }
 .password {
-    background-image: url(./keyPNG.png);
-    background-repeat: no-repeat;
-    background-size: 26px;
+  background-image: url(./keyPNG.png);
 }
-.email{
-    background-image: url(./mailPNG.png);
-    background-repeat: no-repeat;
-    background-size: 26px;
+.email {
+  background-image: url(./mailPNG.png);
 }
-#postform{
-    font-size:12px;
-    font-weight: bolder;
+#postform {
+  font-size: 0.8rem;
+  font-weight: bolder;
 }
 #checkboxdiv {
-    display: inline-block;
-    float: left;
-    width: 45%;
-    padding-left: 15px;
-    text-indent: -15px;
+  display: inline-block;
+  float: left;
+  width: 45%;
+  padding-left: 15px;
+  text-indent: -15px;
 }
 input {
-    width: 15px;
-    height: 15px;
-    padding: 0;
-    margin: 0;
-    vertical-align: bottom;
-    position: relative;
-    top: 0px;
+  width: 15px;
+  height: 15px;
+  vertical-align: bottom;
 }
-#slap{
-    display: inline-block;
-    float: right;
-    width: 45%;
-    text-align: right;
-    margin-top: 1px;
+#slap {
+  display: inline-block;
+  float: right;
+  width: 45%;
+  text-align: right;
 }
-#slap>a:hover{
-    color: rgb(45, 45, 124);
-    font-size: 13px;
-    text-shadow: 2px 2px 10px rgb(45, 45, 124);
+#slap > a:hover {
+  color: rgb(45, 45, 124);
+  font-size: 1.1rem;
+  text-shadow: 2px 2px 10px rgb(45, 45, 124);
 }
-.buttondiv{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 15%;
+.buttondiv {
+  margin-top: 30%;
 }
-.button{
-    width: 100%;
-    color: floralwhite;
-    color: rgb(255, 252, 214);
-    background-image: linear-gradient(to right, blueviolet, rgb(74, 74, 252));
-    border-radius: 22px;
-    border: none;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    font-size:16px;
+.button {
+  width: 100%;
+  color: floralwhite;
+  color: rgb(255, 252, 214);
+  background-image: linear-gradient(to right, blueviolet, rgb(74, 74, 252));
+  border-radius: 5rem;
+  border: none;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: 1.5rem;
 }
-.buttondiv a{
-    color: oldlace;
-    letter-spacing: 2px;
+.buttondiv a {
+  color: oldlace;
+  letter-spacing: 3px;
 }
-.buttondiv a:hover{
-    text-decoration: underline;
-    font-size: 18px;
-    text-shadow: 2px 2px 10px rgb(250, 250, 252);
+.buttondiv a:hover {
+  text-decoration: underline;
+  font-size: 1.7rem;
+  text-shadow: 2px 2px 10px rgb(250, 250, 252);
 }
-footer{
-    margin-top: 3%;
-    padding-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 .pabaigosp {
- margin: 0%;
+  margin: 0%;
 }
-.pabaigospp{
-    margin: 0%;
+.pabaigospp {
+  margin: 0%;
 }
-.paryskinta{
-    font-weight: bold;
-    font-size: 14px;
+.paryskinta {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
-.paryskinta:hover{
-    color: rgb(45, 45, 124);
-    font-size: 16px;
-    text-shadow: 2px 2px 10px rgb(45, 45, 124);
+.paryskinta:hover {
+  color: rgb(45, 45, 124);
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 10px rgb(45, 45, 124);
 }

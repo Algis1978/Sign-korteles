@@ -2,7 +2,12 @@
   --maincolor: cornsilk;
 }
 body {
-  background-color: blueviolet;
+  background: repeating-linear-gradient(
+      45deg,
+      rgb(182, 88, 174) 0px,
+      rgb(182, 88, 174) 20px,
+      rgb(138, 55, 131) 80px
+    );
 }
 body * {
   color: rgba(105, 90, 205);

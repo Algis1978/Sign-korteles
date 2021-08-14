@@ -1,11 +1,11 @@
 :root {
-  --maincolor: rgb(255, 252, 214);
+  --maincolor: cornsilk;
 }
 body {
   background-color: blueviolet;
 }
 body * {
-  color: rgba(105, 90, 205, 0.61);
+  color: rgba(105, 90, 205);
 }
 a {
   text-decoration: none;
@@ -15,15 +15,13 @@ Main {
   margin: 5%;
   width: 90%;
   min-width: 240px;
-  max-width: 720px;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  max-width: 960px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   border-radius: 18px;
 }
 header {
   margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
 }
 h1 {
   color: slateblue;

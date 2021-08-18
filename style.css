@@ -26,16 +26,12 @@ Main {
   border-radius: 18px;
 }
 header {
-  margin-left: 10%;
+  padding: 10%;
+  padding-bottom: 2%;
 }
 h1 {
   color: slateblue;
   font-size: 4rem;
-}
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-  }
 }
 p {
   font-size: 1rem;
@@ -148,4 +144,26 @@ footer {
   color: rgb(45, 45, 124);
   font-size: 1.5rem;
   text-shadow: 2px 2px 10px rgb(45, 45, 124);
+}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .button {
+    font-size: 1.2rem;
+  }
+  .buttondiv a:hover {
+    font-size: 1.3rem;
+  }
+  .paryskinta {
+    font-size: 1.1rem;
+  }
+  .paryskinta:hover {
+    font-size: 1.2rem;
+  }
+  .naudotojovardas,
+.password,
+.email {
+  font-size: 1rem;
+  }
 }

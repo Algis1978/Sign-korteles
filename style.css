@@ -28,8 +28,7 @@ Main {
   margin-bottom: 7%;
 }
 header {
-  padding: 10%;
-  padding-bottom: 2%;
+  padding: 5% 10% 2% 10%;
 }
 h1 {
   color: slateblue;
@@ -99,7 +98,6 @@ input {
   float: right;
   width: 45%;
   text-align: right;
-  margin-top: 5px;
 }
 #slap > a:hover {
   color: rgb(45, 45, 124);
@@ -139,7 +137,7 @@ footer {
   margin: 0%;
 }
 .pabaigospp {
-  margin: 0%;
+  margin: 2%;
 }
 .paryskinta {
   font-weight: bold;
@@ -170,5 +168,8 @@ footer {
   .password,
   .email {
   font-size: 1rem;
+  }
+  header {
+    padding: 10% 10%, 2%, 10%
   }
 }

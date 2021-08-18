@@ -109,8 +109,6 @@ input {
 }
 .button {
   width: 100%;
-  color:rgb(45, 45, 124);
-  color: floralwhite;
   background-image: linear-gradient(to right, blueviolet, rgb(74, 74, 252));
   border-radius: 5rem;
   border: none;
@@ -119,7 +117,7 @@ input {
   font-size: 1.5rem;
 }
 .buttondiv a {
-  color: oldlace;
+  color: rgb(236, 219, 185);
   letter-spacing: 3px;
 }
 .buttondiv a:hover {
